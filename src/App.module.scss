@@ -1,0 +1,12 @@
+.form {
+  background-color: #8ea8ca;
+  width: 600px;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0) inset,
+    0 1px 1px 1px rgba(255, 255, 255, 0.2), 0 -1px 1px 1px rgba(0, 0, 0, 0);
+}

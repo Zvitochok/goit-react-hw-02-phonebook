@@ -1,0 +1,38 @@
+h2 {
+  font-weight: bold;
+  font-size: 34px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+input {
+  margin: auto;
+  display: block;
+  font-size: 18px;
+  line-height: 24pt;
+  border-radius: 5px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+.formBtn {
+  width: auto;
+  display: inline-block;
+  height: 40px;
+  line-height: 4px;
+  vertical-align: middle;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+  box-shadow: none;
+  transition: 0.2s ease-in-out;
+  margin: 10px auto;
+}
