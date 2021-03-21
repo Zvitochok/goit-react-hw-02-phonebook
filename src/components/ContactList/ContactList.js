@@ -1,4 +1,5 @@
 import s from './ContactList.module.scss';
+
 const ContactListItem = ({ id, name, phone, onRemove }) => {
   return (
     <li>

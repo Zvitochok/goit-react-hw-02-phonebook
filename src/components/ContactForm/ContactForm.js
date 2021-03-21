@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import PropTypes from "prop-types";
 
 import s from './ContactForm.module.scss';
 
@@ -69,6 +70,10 @@ class ContactForm extends Component {
       </form>
     );
   }
+}
+ContactForm.propTypes = {
+  name: PropTypes.string,
+  phone: PropTypes.number,
 }
 
 export default ContactForm;
